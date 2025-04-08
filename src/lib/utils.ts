@@ -10,7 +10,7 @@ export const generateBarcodeValues = (
     };
 
     const getPadding = () => {
-        if (type === "staff") return 4; // PHT0001
+        if (type === "staff") return 3; // PHT0001
         return 5; // PHS00001 or PH00001
     };
 
