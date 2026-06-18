@@ -13,7 +13,7 @@
     "@vercel/analytics": "^2.0.1",
     "jsbarcode": "^3.11.6",
     "mongodb": "^6.15.0",
-    "next": "15.2.4",
+    "next": "15.2.8",
     "react": "^19.0.0",
     "react-barcode": "^1.6.1",
     "react-dom": "^19.0.0",
