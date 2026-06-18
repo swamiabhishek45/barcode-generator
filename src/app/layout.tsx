@@ -5,9 +5,11 @@ import { Analytics } from "@vercel/analytics/next"
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <>
-        <Analytics/>
         <html lang="en">
-            <body>{children}</body>
+            <body>{children}
+
+            <Analytics/>
+            </body>
         </html>
         </>
     );
